@@ -23,4 +23,11 @@
 hs_err_pid*
 replay_pid*
 
+
+/target/
+
+.vscode/
+
 .fake
+!**/src/main/**/target/
+!**/src/test/**/target/
